@@ -15,7 +15,7 @@ body {
 .contents {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 32px;
   padding: 48px;
 }
 
@@ -23,12 +23,12 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+
   font-size: 32px;
   font-weight: 900;
-
   display: flex;
   align-items: center;
-  padding-left: 16px;
+  padding-left: 0 16px;
 }
 
 .footer {
@@ -48,11 +48,10 @@ body {
 
   flex-shrink: 0;
   padding: 16px;
-  font-size: 24px;
 }
 
 .sidebar ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -64,6 +63,7 @@ body {
 .sidebar a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 24px;
 }
 
 .card {
